@@ -33,19 +33,23 @@ p{
 <p>Essas propriedades FlexBox ou Grid já são o suficiente:</p>
 
 <code>
-    #nomeDiv{
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     flex-wrap: wrap; //Ele vai fazer com que o nosso flexbox quebre;
-    }
     
-    #nomeDiv {
-     display: grid;
-     grid-template-columns: repeat(4, 1fr);
-     grid-template-rows: repeat(2, 250px);
-    }
+        #nomeDiv{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         flex-wrap: wrap; //Ele vai fazer com que o nosso flexbox quebre;
+        }
 </code>
+    
+<code>
+        #nomeDiv {
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-template-rows: repeat(2, 250px);
+        }
+</code>
+
 
 <p>Post sobre justify-content => <a href="https://www.instagram.com/p/CMQNUOjA_nM/" target="_blank">https://www.instagram.com/p/CMQNUOjA_nM/</a></p>
 <p>Post sobre align-items => <a href="https://www.instagram.com/p/CMVUmSHAWZx/">https://www.instagram.com/p/CMVUmSHAWZx/</a></p>
